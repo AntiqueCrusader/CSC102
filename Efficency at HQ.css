@@ -1,0 +1,11 @@
+body {
+    background: rgb(69,77,115);
+    background: linear-gradient(90deg, rgba(69,77,115,1) 0%, rgba(234,105,16,1) 47%, rgba(221,49,24,1) 84%, rgba(247,255,67,1) 100%);
+}
+.buttons {
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    border-radius: 200px;
+    border-color: rebeccapurple;
+}
