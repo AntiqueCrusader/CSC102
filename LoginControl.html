@@ -1,0 +1,30 @@
+<!doctype HTML>
+<html>
+    <script type="text/javascript" src="JSLogin.js"></script> <!-- Javascript Sheet used-->
+    <link href="CSSLogin.css" rel="stylesheet" type="text/css"/> <!-- CSS stylesheet used-->
+    <head> 
+     <title> Mission Control Login</title> <!-- Title-->
+    </head>
+<body>
+    <audio id='audio1' src='SimonViklund-Backstab.flac'> </audio> <!-- Part of Easteregg -->
+    <audio id="audio2" src="Ryan Ike -  Gunpoint - The Soundtrack - Cold Halls and Footfalls.mp3"></audio> <!--Easter Egg pt.2-->
+<br>
+<center><img src="UATspaceLogo-2.jpg" alt="Logo" id="Log_img"></center>
+  <center> <h1>
+       Please Log in to Access Mission Control
+   </h1></center>
+    <center></center><p id="LogText" class ="LogText"> Awaiting User to Login</p></center>
+    <div class="container">
+        <form id="credSubmit" onsubmit="return false" class ="Form">
+            <label>First Name:</label>
+              <center> <input type="text" id="fName"  class ="txtinput"/></center>
+            <label>Last Name:</label> 
+              <center><input type="text" id="lName" class ="txtinput"/></center>
+            <label>Badge Number:</label>  
+              <center><input type="number" id="badgeID" class ="txtinput"/></center>
+        </form>
+    </div>
+    <input type = "button" onclick="checkCreds()"> 
+
+</body>
+</html>

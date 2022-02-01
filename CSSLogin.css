@@ -1,0 +1,38 @@
+body {
+    background: rgb(136, 136, 136);
+    background: linear-gradient(90deg, rgba(45,46,46,1) 0%,rgba(135,135,135,1)50%, rgba(194,194,194,1) 100%);
+}
+h1 {
+    font-size: 36px;
+    line-height: 40px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.Form{
+    font-size: 25px;
+    line-height: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.txtinput {
+    width:150px;
+    padding:10px;
+  box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+  margin:5px 0; 
+  border-radius:200px;
+  font-family: 'Georgia, serif';
+  font-size: 15px;
+  display: inline-block;
+  text-align: right;
+  }
+
+  .container {
+    width: 500px;
+    clear: both;
+    float:Left;
+  text-align:left;
+  margin-right:5px; /* optional */
+}
+  
+  .container input {
+    width: 100%;
+    clear: both;
+  }
