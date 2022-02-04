@@ -1,0 +1,30 @@
+body {
+    background: rgb(168, 215, 243);
+    background: linear-gradient(90deg, rgb(190, 228, 238) 0%, rgb(60, 65, 66) 100%);
+}
+
+.Tab-one {
+    font-size: 36px;
+    line-height: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.Numbers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%; 
+}
+
+.Numbers tr:nth-child(even){background-color:linear-gradient(90deg, rgb(60, 65, 66) 0%, rgb(190, 228, 238) 100%);} /*Tried to Reverse the Liear Graident but it doesnt work*/
+.Numbers tr:hover {background-color: rgb(175, 175, 175);}
+.Numbers th {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-align: left;
+    background-color: #000000;
+    color: rgb(175, 175, 175);
+}
+.Numbers td, .Numbers th {
+    border: 1px solid #ddd;
+    padding: 3px;
+  }
+  

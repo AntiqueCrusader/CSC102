@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!-- This is for CSC102  Event Driven Programming Buttons made by Austin Hill-->
+<html>
+    
+   <head>
+       <script src="EventButtonPrograming.js" type="text/javascript"> </script> <!-- The Javascript File used-->
+        <link href="EventButtonPrograming.css" type="text/css" rel="stylesheet"> <!-- The Css File used-->
+            <title> Event Driven Programming</title> <!-- Title-->
+        <audio id='audio' src='Ryan Ike -  Gunpoint - The Soundtrack - Cold Halls and Footfalls.mp3'> </audio>
+   </head>
+<body>
+    <table class ="Tab-one"> <!-- Contains the Picutre and the Text 'UAT Space program' used to Modify font and Size-->
+        <tr>
+            <td>  <img src = "UATspaceLogo-2.jpg" /> </td>
+            <td> <h1> UAT Space Program</h1> </td>
+        </tr>
+    </table>
+    <div id="countdown"></div> <!-- Timer Results and Countdown-->
+    <div id="display" style="display:none">Data has been Collected </div>
+    <div id="countdown2"></div>
+    <div id="display2" style="display:none">Data has been Reset </div>
+<table id="numbers" border = "5" width="60%" class ="Numbers">
+    <thread>
+        <tr style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;"> <!-- Main Table stuff-->
+            <th>Data Names</th>
+            <th>Results</th>
+        </tr>
+    </thread>
+<tbody style="Font-weight: bolder;">
+    <tr id="seconds"><td>Waiting for Data Input</td><td>Null</td></tr>
+    <tr id="latitude"><td>Waiting for Data Input</td><td>Null</td></tr>
+    <tr id="longitude"><td>Waiting for Data Input</td><td>Null</td></tr>
+    <tr id="gps_altitude"><td>Waiting for Data Input</td><td>Null</td></tr>
+    <tr id="bmpSensor_altitude"><td>Waiting for Data Input</td><td>Null</td></tr>
+    <tr id="bmpSensor_pressure"><td>Waiting for Data Input</td><td>Null</td></tr>
+    <tr id="bmpSensor_temp"><td>Waiting for Data Input</td><td>Null</td></tr>
+    <tr id="bdigSensor_temp"><td>Waiting for Data Input</td><td>Null</td></tr>
+    <tr id="cssSensor_temp"><td>Waiting for Data Input</td><td>Null</td></tr>
+    <tr id="cssSensor_eCO2"><td>Waiting for Data Input</td><td>Null</td></tr>
+    <tr id="cssSensor_TVOC"><td>Waiting for Data Input</td><td>Null</td></tr>
+    <tr id="UV"><td>Waiting for Data Input</td><td>Null</td></tr>
+    <tr id="accelX"><td>Waiting for Data Input</td><td>Null</td></tr>
+    <tr id="accelY"><td>Waiting for Data Input</td><td>Null</td></tr>
+    <tr id="accelZ"><td>Waiting for Data Input</td><td>Null</td></tr>
+    <tr id="gyroX"><td>Waiting for Data Input</td><td>Null</td></tr>
+    <tr id="gyroY"><td>Waiting for Data Input</td><td>Null</td></tr>
+    <tr id="gyroZ"><td>Waiting for Data Input</td><td>Null</td></tr>
+    <tr id="magneticX"><td>Waiting for Data Input</td><td>Null</td></tr>
+    <tr id="magneticY"><td>Waiting for Data Input</td><td>Null</td></tr>
+    <tr id="magneticZ"><td>Waiting for Data Input</td><td>Null</td></tr>
+</tbody>
+</table>
+<br>
+<br>
+<button type ="button" onclick ="setdata(); starttimer(); play()" class="buttons" id="Start"> Start the Data collection</button> <!--Start button-->
+<button type ="button" onclick ="Reset(); play()" class ="buttons" id="Stop" disabled="true">Reset</button> <!-- "Stop Button" Resets the Table on a 10 sec countdown-->
+</body>
+</html>
